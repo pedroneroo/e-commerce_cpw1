@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .products {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+
+    .product-card-oferta {
+        width: 90%;
+    }
+}
